@@ -84,7 +84,7 @@ export default function Services() {
             >
               {/* Text Content */}
               <div className="flex-1 bg-white rounded-lg shadow-md p-10 hover:shadow-2xl transition-shadow duration-300">
-                <h3 className="text-3xl font-semibold text-gray-800 mb-6">
+                <h3 className="text-3xl font-semibold text-gray-800 mb-6 font-serif">
                   {service.title}
                 </h3>
                 <p className="text-gray-700 max-w-xl mb-6">{service.description}</p>

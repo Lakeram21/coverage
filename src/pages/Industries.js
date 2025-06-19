@@ -71,7 +71,7 @@ export default function Industries() {
               {icon}
             </div>
             <div className="md:max-w-xl mt-8 md:mt-0 md:px-12">
-              <h3 className="text-4xl font-extrabold mb-4 text-indigo-900">{title}</h3>
+              <h3 className="text-4xl font-extrabold mb-4 text-indigo-900 font-serif">{title}</h3>
               <p className="text-indigo-900 text-lg leading-relaxed">{desc}</p>
             </div>
           </section>

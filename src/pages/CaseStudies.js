@@ -46,7 +46,7 @@ function CaseStudies() {
               style={{ cursor: "default" }}
             >
               <div className="flex flex-col">
-                <h3 className="text-3xl font-bold text-indigo-900 mb-5">{title}</h3>
+                <h3 className="text-3xl font-bold text-indigo-900 mb-5 font-serif">{title}</h3>
                 <p className="text-indigo-800 text-lg leading-relaxed mb-6 max-w-3xl">{desc}</p>
                 <p className="italic text-indigo-600 max-w-3xl">{quote}</p>
               </div>

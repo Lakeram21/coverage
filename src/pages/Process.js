@@ -54,7 +54,7 @@ export default function Process() {
               >
                 <div className="text-5xl">{icon}</div>
                 <div>
-                  <h3 className="text-3xl font-semibold text-indigo-800">{title}</h3>
+                  <h3 className="text-3xl font-semibold text-indigo-800 font-serif">{title}</h3>
                   <p className="text-indigo-700 mt-2 text-lg">{description}</p>
                 </div>
               </div>

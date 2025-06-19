@@ -21,7 +21,7 @@ const pricingPlans = [
     desc: "Infrastructure automation, CI/CD, and cloud management services.",
     price: "$130 / hour",
     features: ["Cloud migration", "Monitoring & alerting", "Security & compliance"],
-    accent: "from-cyan-100 to-cyan-250",
+    accent: "from-cyan-300 to-cyan-200",
   },
 ];
 
