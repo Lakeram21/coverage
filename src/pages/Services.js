@@ -74,8 +74,8 @@ export default function Services() {
           return (
             <motion.section
               key={service.id}
-              className={`flex flex-col md:flex-row items-center md:space-x-12 ${
-                !isEven ? "md:flex-row-reverse" : ""
+             className={`flex flex-col md:flex-row items-center ${
+                isEven ? "md:space-x-12" : "md:flex-row-reverse md:space-x-12 md:space-x-reverse"
               }`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}

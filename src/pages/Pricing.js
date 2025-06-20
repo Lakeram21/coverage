@@ -5,21 +5,21 @@ const pricingPlans = [
   {
     title: "Consulting",
     desc: "Strategic guidance on technology adoption, architecture, and planning.",
-    price: "$150 / hour",
+    price: "$40 / hour",
     features: ["1:1 sessions", "Roadmap creation", "Technology audit"],
     accent: "from-indigo-200 to-indigo-100",
   },
   {
     title: "Development",
     desc: "Custom software engineering for web, mobile, and backend systems.",
-    price: "$120 / hour",
+    price: "$45 / hour",
     features: ["Full-stack development", "Agile workflows", "Testing & QA"],
     accent: "from-amber-300 to-amber-200",
   },
   {
     title: "DevOps & Cloud",
     desc: "Infrastructure automation, CI/CD, and cloud management services.",
-    price: "$130 / hour",
+    price: "$40 / hour",
     features: ["Cloud migration", "Monitoring & alerting", "Security & compliance"],
     accent: "from-cyan-300 to-cyan-200",
   },
@@ -45,7 +45,7 @@ function Pricing() {
               style={{ backgroundOrigin: "border-box" }}
             >
               <div className="bg-white rounded-lg p-8">
-                <h3 className="text-3xl font-bold mb-5">{title}</h3>
+                <h3 className="text-3xl font-bold mb-5 font-serif">{title}</h3>
                 <p className="text-indigo-700 mb-8 leading-relaxed">{desc}</p>
                 <div
                   className={`bg-gradient-to-r ${accent} text-4xl font-extrabold mb-8 px-6 py-4 rounded-lg inline-block text-white`}
