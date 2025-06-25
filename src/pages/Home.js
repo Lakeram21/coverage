@@ -258,19 +258,19 @@ export default function Home() {
               {
                 name: "Issac",
                 role: "Software Developer & Project Manager",
-                image: "https://randomuser.me/api/portraits/men/32.jpg",
+                image: "https://media.licdn.com/dms/image/v2/D4E03AQF1BKeRpENJvQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685059267319?e=1756339200&v=beta&t=4rRGn_SnsGfOAgCNFrnhoY37DmAZ_BH0A34jxfYoasA",
                 desc: "15+ years delivering high-impact software and leading projects across industries."
               },
               {
                 name: "Enrique",
                 role: "DevOps & Cloud Engineer",
-                image: "https://randomuser.me/api/portraits/men/45.jpg",
+                image: "https://media.licdn.com/dms/image/v2/C5603AQGwOnwGlSJgDw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1635380599397?e=1756339200&v=beta&t=U13VtMbD13YfuKKSDLtv2MwjDvhuHuA4NVKfHwbdIbg",
                 desc: "Expert in infrastructure automation, CI/CD, and scalable deployments."
               },
               {
                 name: "Lakeram",
                 role: "Full Stack Developer & Automation Specialist",
-                image: "https://randomuser.me/api/portraits/men/85.jpg",
+                image: "https://media.licdn.com/dms/image/v2/C5603AQEcmj0Mr4EDdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1659546765697?e=1756339200&v=beta&t=uVblvrYd1HIANjVo7gXdgZHZi82UQuuWsE_TJFsJRTw",
                 desc: "Focused on scalable apps and automation-driven productivity."
               }
             ].map(({ name, role, image, desc }) => (
